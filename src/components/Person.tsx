@@ -11,7 +11,7 @@ const Person = () => {
         <h1 className="">Person Biography</h1>
       </div>
 
-      <p className="">My name is {!input ? "No bio avaliable" : input}</p>
+      {!input ? <p>No text available</p> : <p>{input}</p>}
       <div className="">
         <input type="text" onChange={handleChange} />
       </div>

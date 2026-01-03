@@ -1,10 +1,12 @@
-import React from "react";
-import Person from "./components/Person";
+import Greet from "./components/Greet";
 
 const App = () => {
   return (
     <div>
-      <Person />
+      <Greet name="Nelson" />
+      {/* <Person />
+      <UserProfile {...user} />
+      <ExpandableText /> */}
     </div>
   );
 };
